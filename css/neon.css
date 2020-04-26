@@ -77,11 +77,12 @@ h1:focus {
     bottom: 300  ; /* добавили */
     margin-top: -250px;
 }
-#text h2{
+h2{
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-    margin-top: -60px;}
+    margin-top: -60px;
+  }
 #logo{
     animation: flicker 10s infinite alternate; 
     margin-bottom: -400px;
