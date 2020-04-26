@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='ru'>
+    <head>
+        <link rel="shortcut icon" href="./images/favicon.ico">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/neon.css">
+        <title>Переадресация Telegram | Totelega</title>
+    </head>
+    <body>
+        <div id="text">
+        <h1 class="text">TOTELE.GA <h2>ВВЕДИТЕ В ПОЛЕ USERNAME (без "@")</h2></h1>
+        </div>
+        <div id="in">
+        
+        <input id='ds' class='input' type="text" value=""></div><br></br>
+        <input class='submit' type="submit" value="СГЕНЕРИРОВАТЬ ССЫЛКУ" onclick="generate_link()">
+        <script>
+            function generate_link(){
+                a = 1
+                username = document.getElementById('ds').value
+                document.getElementById('ds').value = ''
+                document.getElementById('ds').value = 'totele.ga/' + username
+
+            }
+        </script>
+    </body>
+</html>

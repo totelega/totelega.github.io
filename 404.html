@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='ru'>
+    <head>
+        <link rel="shortcut icon" href="./images/favicon.ico">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/neon.css">
+        <title>Переадресация Telegram | Totelega</title>
+    </head>
+    <body>
+        <div id="text">
+        <h1 class="text">TOTELE.GA <h2>ПЕРЕЙТИ</h2></h1>
+        </div>
+        <div id="logo">
+        <button><img src="./images/telegram.png" alt="" onclick="go_to_telegram()"></div></button>  
+        <script>
+            function go_to_telegram(){
+                let url = location.href.split('/')
+                document.write(url[5])
+                
+            }
+        </script>
+    </body>
+    
+</html>
