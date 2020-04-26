@@ -1,0 +1,14 @@
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+h1{
+    margin-top: -580px;
+}
+input{
+    position: relative;
+    top: -300px;
+}
+#logo{
+    position: relative;
+    top: -300px;
+}
+}
+
