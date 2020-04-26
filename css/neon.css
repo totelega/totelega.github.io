@@ -27,7 +27,7 @@ h1 {
   border: 0.4rem solid #fff;
   border-radius: 2rem;
   text-transform: uppercase;
-  animation: flicker 1.5s infinite alternate;     
+  animation: flicker 100000000s infinite alternate;     
 }
 
 h1::-moz-selection {
@@ -83,7 +83,7 @@ h1:focus {
     text-align: center;
     margin-top: -60px;}
 #logo{
-    animation: flicker 1.5s infinite alternate; 
+    animation: flicker 10s infinite alternate; 
     margin-bottom: -400px;
     border-radius: 900px;
 }
