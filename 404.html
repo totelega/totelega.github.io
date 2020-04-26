@@ -14,9 +14,9 @@
         <button><img src="./images/telegram.png" alt="" onclick="go_to_telegram()"></div></button>  
         <script>
             function go_to_telegram(){
-                let url = location.href.split('/')
-                document.write(url[5])
-                
+                let url = location.href
+                username = url[3]
+                location.href = 'tg://resolve?domain=' + username
             }
         </script>
     </body>
