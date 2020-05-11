@@ -5,7 +5,7 @@ function generate_link(){
     }
     else{
     document.getElementById('ds').value = username
-    link = 'totele.ga/' + username
+    link = 'https://totele.ga/' + username
     document.getElementById('ds').value = link.toLowerCase()
     navigator.clipboard.writeText(link)
     butt = document.getElementById('butt')
