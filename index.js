@@ -15,3 +15,9 @@ function generate_link(){
      }, 3000);
     }
 }
+if (location.href == 'https://totele.ga'){
+    console.log('https')
+}
+else{
+location.href = 'https://totele.ga'
+}
